@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 1 - External CSS Styling</title>
+
+  
+  <link rel="stylesheet" href="style.css">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+  <header>
+    <h1>My Portfolio</h1>
+   
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#Projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="intro" class="section-box">
+    <h2 class="one">About</h2>
+    <div class="image-container"><img src="/Kunal Pic.jpg"></div>
+    <p>This webpage demonstrates how to apply an external CSS stylesheet to an HTML file. It includes element, class, and ID selectors, a consistent color theme, custom typography, and CSS positioning techniques such as relative, absolute, static, and fixed positioning.</p>
+  </section>
+
+  <hr>
+
+  <section id="skills" class="section-box">
+    <h2 class="one">My Skills </h2>
+    <table>
+      <tr>
+        <th>Technology</th>
+        <th>Skill Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Advanced</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Intermediate</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Pending</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <section id="Projects" class="section-box">
+    <h2 class="one">Projects</h2>
+    <div class="three"><p>Project 1 = </p>
+    My simple html and css page</div>
+    <br>
+
+    <div class="three"><p>Project 2 =</p>
+    Amazon clone website</div>
+  </section>
+  <hr>
+
+  <section id="contact" class="section-box">
+  
+    <h2 class="one">Contact Me</h2>
+    <form action="#" method="post">
+      <table>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td> <input type="text" id="name" name="name" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="email" id="email" name="email" placeholder="Enter your email"></td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea id="message" name="message" placeholder="Your message here"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit">Send</button></td>
+        </tr>
+      </table>
+    </form>
+    
+    
+  </section>
+
+  
+  <a href="#top" id="back-to-top">↑</a>
+
+
+</body>
+</html>
